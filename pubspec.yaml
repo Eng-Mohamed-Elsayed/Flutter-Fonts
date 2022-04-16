@@ -1,0 +1,38 @@
+name: flutter_fonts
+description: A new Flutter project.
+
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.16.2 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  google_fonts: ^2.3.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^1.0.0
+  flutter_launcher_icons: ^0.9.2
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/logo/food.png"
+  # image_path_android: ""
+  # image_path_ios: ""
+
+flutter:
+  uses-material-design: true
+  fonts:
+    - family: pacifico
+      fonts:
+        - asset: assets/fonts/pacifico_regular.ttf
+    - family: sanspro
+      fonts:
+        - asset: assets/fonts/sans_pro.ttf
